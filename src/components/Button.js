@@ -6,7 +6,7 @@ const Button = ({ value }) => (
     <p className={
       `${
         (value === '/' || value === 'X' || value === '-' || value === '+' || value === '=')
-          ? 'bg-orange-300 text-black text-center py-3 px-6 font-medium' : 'bg-slate-50 text-black text-center py-3 px-6 font-medium'
+          ? 'bg-orange-300 py-3 px-6 text-black text-center font-regular' : 'bg-gray-100 py-3 px-6 text-black text-center font-regular'
       }`
     }
     >
