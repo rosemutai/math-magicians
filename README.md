@@ -123,7 +123,7 @@ To run tests, run the following command:
 npm test
 Example command:
 ```sh
-  npx stylelint "**/*.{css,scss}"
+  npm test
 ```
 ### Deployment
 You can deploy this project using:
