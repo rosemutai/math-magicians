@@ -1,26 +1,62 @@
-import React from 'react';
-import Display from './Display';
-import Button from './Button';
+import React, { useState } from 'react';
+import calculate from '../logic/calculate';
 
-const btnValues = [
-  ['AC', '+/-', '%', '/'],
-  [7, 8, 9, 'X'],
-  [4, 5, 6, '-'],
-  [1, 2, 3, '+'],
-  [0, '.', '='],
-];
+const greyButton = {
+  style: 'bg-gray-100 py-3 px-6 text-black text-center font-regular',
+};
 
-const Calculator = () => (
-  <div className="calc-homepage w-1/4 my-16 mx-auto bg-gray-200">
-    <Display />
-    <div className="grid grid-cols-4 grid-rows-5 gap-1">
-      {btnValues.flat().map((item, index) => (
-        <div key={item} className={`${index === 16 ? 'col-span-2' : 'col-span-1'}`}>
-          <Button value={item} />
-        </div>
-      ))}
+const orangeButton = {
+  style: 'bg-orange-400 py-3 px-6 text-black text-center font-regular',
+};
+
+const Calculator = () => {
+  const [displayValue, setDisplayValue] = useState({ total: null, next: null, operation: null });
+
+  const handleOnClick = (e) => {
+    const valueClicked = e.target.textContent;
+    const res = calculate(displayValue, valueClicked);
+    setDisplayValue(res);
+  };
+  return (
+    <div className="calc-homepage w-1/4 my-16 mx-auto bg-gray-200">
+      <div className="display-area px-2 py-4 flex justify-end bg-gray-400/75 w-full">
+        <h2 className="display-value font-semibold text-white">
+          {displayValue.next || displayValue.total || 0}
+        </h2>
+      </div>
+      <div className="grid grid-cols-4 grid-rows-5 gap-1">
+        {/* row one */}
+        <button type="button" className={`${greyButton.style}`} onClick={handleOnClick}>AC</button>
+        <button type="button" className={`${greyButton.style}`} onClick={handleOnClick}>+/-</button>
+        <button type="button" className={`${greyButton.style}`} onClick={handleOnClick}>%</button>
+        <button type="button" className={`${orangeButton.style}`} onClick={handleOnClick}>÷</button>
+
+        {/* row two */}
+        <button type="button" className={`${greyButton.style}`} onClick={handleOnClick}>7</button>
+        <button type="button" className={`${greyButton.style}`} onClick={handleOnClick}>8</button>
+        <button type="button" className={`${greyButton.style}`} onClick={handleOnClick}>9</button>
+        <button type="button" className={`${orangeButton.style}`} onClick={handleOnClick}>x</button>
+
+        {/* row three */}
+        <button type="button" className={`${greyButton.style}`} onClick={handleOnClick}>4</button>
+        <button type="button" className={`${greyButton.style}`} onClick={handleOnClick}>5</button>
+        <button type="button" className={`${greyButton.style}`} onClick={handleOnClick}>6</button>
+        <button type="button" className={`${orangeButton.style}`} onClick={handleOnClick}>-</button>
+
+        {/* row two */}
+        <button type="button" className={`${greyButton.style}`} onClick={handleOnClick}>1</button>
+        <button type="button" className={`${greyButton.style}`} onClick={handleOnClick}>2</button>
+        <button type="button" className={`${greyButton.style}`} onClick={handleOnClick}>3</button>
+        <button type="button" className={`${orangeButton.style}`} onClick={handleOnClick}>+</button>
+
+        {/* row two */}
+        <button type="button" className={`${greyButton.style} col-span-2`} onClick={handleOnClick}>0</button>
+        <button type="button" className={`${greyButton.style}`} onClick={handleOnClick}>.</button>
+        <button type="button" className={`${orangeButton.style}`} onClick={handleOnClick}>=</button>
+
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 export default Calculator;
