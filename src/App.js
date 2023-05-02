@@ -3,6 +3,7 @@ import Calculator from './routes/Calculator';
 import Navbar from './components/Navbar';
 import Quote from './routes/Quote';
 import Home from './routes/Home';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="calculator" element={<Calculator />} />
         <Route path="quotes" element={<Quote />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
