@@ -27,11 +27,11 @@ const Quote = () => {
     fetchQuotes();
   }, []);
   return (
-    <div className="w-1/2 flex flex-col mx-auto p-4 bg-gray-200">
+    <div className="w-1/2 flex flex-col mx-auto p-4 bg-gray-200/50 shadow-md mt-16">
       {loading && (
         <div
           type="button"
-          className="h-10 w-10 px-6 mx-auto bg-orange-400 text-center text-orange-400 border
+          className="h-5 w-5 px-6 mx-auto bg-orange-400 text-center text-orange-400
             border border-dotted border-white my-5 animate-spin rounded-2xl"
         >
           ..
