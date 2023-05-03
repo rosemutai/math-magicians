@@ -2,8 +2,8 @@ import operate from '../logic/operate';
 
 describe('operate', () => {
   it('should perform addition', () => {
-    const result = operate('2', '3', '+');
-    expect(result).toBe('5');
+    const result = operate('7', '3', '+');
+    expect(result).toBe('10');
   });
 
   it('should perform subtraction', () => {
@@ -27,8 +27,8 @@ describe('operate', () => {
   });
 
   it('should perform modulo', () => {
-    const result = operate('10', '3', '%');
-    expect(result).toBe('1');
+    const result = operate('14', '3', '%');
+    expect(result).toBe('2');
   });
 
   it('should handle modulo by 0', () => {

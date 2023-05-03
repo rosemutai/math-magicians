@@ -3,7 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Home from '../routes/Home';
 
 describe('Home', () => {
-  it('renders HomePage correctly', () => {
+  it('renders HomePage components', () => {
     const { container } = render(
       <Router>
         <Home />
