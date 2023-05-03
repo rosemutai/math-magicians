@@ -141,6 +141,12 @@ git@github.com:rosemutai/math-magicians.git
 - LinkedIn: [Rose Mutai](https://www.linkedin.com/in/rosemutai/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+:bust_in_silhouette: **AMARACHI DIMKPA**
+- GitHub: [amarachi-dimkpa](https://github.com/Amazinggracee)
+- Twitter: [amazinggraceu](https://twitter.com/amazinggraceu)
+- LinkedIn: [amarachi-dimkpa](https://www.linkedin.com/in/amarachi-dimkpa-070643183)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- FUTURE FEATURES -->
 ## Future Features <a name="future-features"></a>
 
