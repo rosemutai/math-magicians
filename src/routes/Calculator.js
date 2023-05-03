@@ -22,7 +22,7 @@ const Calculator = () => {
       <h1 className="text-3xl font-bold my-16 pl-12">Lets do some math</h1>
       <div className="calc-homepage w-1/4 my-16 mx-auto bg-gray-200">
         <div className="display-area px-2 py-4 flex justify-end bg-gray-400/75 w-full">
-          <h2 className="display-value font-semibold text-white">
+          <h2 className="display-value font-semibold text-white" data-testid="display-value">
             {displayValue.next || displayValue.total || 0}
           </h2>
         </div>

@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders HomePage components 1`] = `
+<div>
+  <div
+    class="w-full mt-8 px-12"
+  >
+    <h2
+      class="title text-xl font-bold my-3"
+    >
+      Welcome to our page
+    </h2>
+    <div
+      class="w-1/2 leading-7"
+    >
+      <p>
+        Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to Make simple calculations by using our simple calculator and view a random quote on our quotes page.
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Home renders HomePage correctly 1`] = `
+<div>
+  <div
+    class="w-full mt-8 px-12"
+  >
+    <h2
+      class="title text-xl font-bold my-3"
+    >
+      Welcome to our page
+    </h2>
+    <div
+      class="w-1/2 leading-7"
+    >
+      <p>
+        Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to Make simple calculations by using our simple calculator and view a random quote on our quotes page.
+      </p>
+    </div>
+  </div>
+</div>
+`;
