@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote renders Quote component correctly 1`] = `
+<div>
+  <div
+    class="w-1/2 flex flex-col mx-auto p-4 bg-gray-200/50 shadow-md mt-16"
+  >
+    <div
+      class="h-5 w-5 px-6 mx-auto bg-orange-400 text-center text-orange-400 border border-dotted border-white my-5 animate-spin rounded-2xl"
+      type="button"
+    >
+      ..
+    </div>
+  </div>
+</div>
+`;

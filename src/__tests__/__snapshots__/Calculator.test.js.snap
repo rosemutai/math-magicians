@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator renders Calculator component correctly 1`] = `
+<div>
+  <div
+    class="calc flex justify-between"
+  >
+    <h1
+      class="text-3xl font-bold my-16 pl-12"
+    >
+      Lets do some math
+    </h1>
+    <div
+      class="calc-homepage w-1/4 my-16 mx-auto bg-gray-200"
+    >
+      <div
+        class="display-area px-2 py-4 flex justify-end bg-gray-400/75 w-full"
+      >
+        <h2
+          class="display-value font-semibold text-white"
+          data-testid="display-value"
+        >
+          0
+        </h2>
+      </div>
+      <div
+        class="grid grid-cols-4 grid-rows-5 gap-1"
+      >
+        <button
+          class="bg-gray-100 py-3 px-6 text-black text-center font-regular"
+          type="button"
+        >
+          AC
+        </button>
+        <button
+          class="bg-gray-100 py-3 px-6 text-black text-center font-regular"
+          type="button"
+        >
+          +/-
+        </button>
+        <button
+          class="bg-gray-100 py-3 px-6 text-black text-center font-regular"
+          type="button"
+        >
+          %
+        </button>
+        <button
+          class="bg-orange-400 py-3 px-6 text-black text-center font-regular"
+          type="button"
+        >
+          ÷
+        </button>
+        <button
+          class="bg-gray-100 py-3 px-6 text-black text-center font-regular"
+          type="button"
+        >
+          7
+        </button>
+        <button
+          class="bg-gray-100 py-3 px-6 text-black text-center font-regular"
+          type="button"
+        >
+          8
+        </button>
+        <button
+          class="bg-gray-100 py-3 px-6 text-black text-center font-regular"
+          type="button"
+        >
+          9
+        </button>
+        <button
+          class="bg-orange-400 py-3 px-6 text-black text-center font-regular"
+          type="button"
+        >
+          x
+        </button>
+        <button
+          class="bg-gray-100 py-3 px-6 text-black text-center font-regular"
+          type="button"
+        >
+          4
+        </button>
+        <button
+          class="bg-gray-100 py-3 px-6 text-black text-center font-regular"
+          type="button"
+        >
+          5
+        </button>
+        <button
+          class="bg-gray-100 py-3 px-6 text-black text-center font-regular"
+          type="button"
+        >
+          6
+        </button>
+        <button
+          class="bg-orange-400 py-3 px-6 text-black text-center font-regular"
+          type="button"
+        >
+          -
+        </button>
+        <button
+          class="bg-gray-100 py-3 px-6 text-black text-center font-regular"
+          type="button"
+        >
+          1
+        </button>
+        <button
+          class="bg-gray-100 py-3 px-6 text-black text-center font-regular"
+          type="button"
+        >
+          2
+        </button>
+        <button
+          class="bg-gray-100 py-3 px-6 text-black text-center font-regular"
+          type="button"
+        >
+          3
+        </button>
+        <button
+          class="bg-orange-400 py-3 px-6 text-black text-center font-regular"
+          type="button"
+        >
+          +
+        </button>
+        <button
+          class="bg-gray-100 py-3 px-6 text-black text-center font-regular col-span-2"
+          type="button"
+        >
+          0
+        </button>
+        <button
+          class="bg-gray-100 py-3 px-6 text-black text-center font-regular"
+          type="button"
+        >
+          .
+        </button>
+        <button
+          class="bg-orange-400 py-3 px-6 text-black text-center font-regular"
+          type="button"
+        >
+          =
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
