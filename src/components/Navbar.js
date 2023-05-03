@@ -9,7 +9,7 @@ const Navbar = () => (
 
     <ul className="menulinks flex">
       <li>
-        <NavLink to="/" className="active:text-orange-400 border-y-0 border-l-0 border-r-2 px-1 mr-3 border-r-black font-bold">Home</NavLink>
+        <NavLink to="/" className="border-y-0 border-l-0 border-r-2 px-1 mr-3 border-r-black font-bold">Home</NavLink>
       </li>
       <li>
         <NavLink to="calculator" className="border-y-0 border-l-0 border-r-2 pr-1 mr-3 border-r-black font-bold">Calculator</NavLink>
