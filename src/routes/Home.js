@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Home = () => (
   <div className="w-full mt-8 px-12">
     <h2 className="title text-xl font-bold my-3">Welcome to our page</h2>

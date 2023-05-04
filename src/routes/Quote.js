@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const api = 'Cwrs2kSC11L4ddqDBkXv+g==VglM1zL4Lg0sN5RR';
 const url = 'https://api.api-ninjas.com/v1/quotes?category=funny';
